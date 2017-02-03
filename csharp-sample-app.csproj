@@ -70,6 +70,10 @@
       <Link>affdex-native.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="C:\Program Files\Affectiva\AffdexSDK\bin\opencv_ffmpeg248_64.dll">
+      <Link>opencv_ffmpeg248_64.dll</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="AffdexLogo.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
