@@ -13,6 +13,9 @@ build:
   project: csharp-sample-app.sln
   parallel: true
   verbosity: detailed
+after_build:
+- cmd:
+    echo d | xcopy /E "C:\Program Files\Affectiva\AffdexSDK\data" bin\x64\Release\data
 artifacts:
 - path: 'bin\x64\Release'
 deploy:
